@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: "TrainOne";
-  src: url("/font/TrainOne-Regular.ttf");
+  src: url("TrainOne-Regular.ttf");
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 {
 
 @font-face {
   font-family: "Poppins";
-  src: url("/font/Poppins-Regular.ttf");
+  src: url("Poppins-Regular.ttf");
 }
 
 .nav_links a {
@@ -130,7 +130,7 @@ a:hover {
   width: 100%;
   margin-top: 20px 20px 0px 0px;
   font-size: 17px;
-  background: url("/img/scissor-and-comb.svg");
+  background: url("scissor-and-comb.svg");
   background-color: rgba(0, 128, 129, 0.1);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -188,7 +188,7 @@ footer {
   font-size: 14px;
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-image: url("/img/iconmonstr-phone-13.svg");
+  background-image: url("iconmonstr-phone-13.svg");
   background-repeat: no-repeat;
   border-radius: 20px;
 }
@@ -207,7 +207,7 @@ footer {
   font-size: 14px;
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-image: url("/img/iconmonstr-whatsapp-1.svg");
+  background-image: url("iconmonstr-whatsapp-1.svg");
   background-repeat: no-repeat;
   border-radius: 20px;
 }
