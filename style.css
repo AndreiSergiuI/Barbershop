@@ -132,7 +132,7 @@ a:hover {
 #Servicii {
   border-collapse: collapse;
   width: 100%;
-  margin: 20px 20px 0px 0px;
+  margin: 5px 20px 0px 0px;
   font-size: 11px;
   background: url("scissor-and-comb.svg");
   background-color: rgba(0, 128, 129, 0.1);
