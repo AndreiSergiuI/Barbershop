@@ -58,7 +58,7 @@ h1 {
 .nav_links a {
   display: inline-block;
   text-align: center;
-  padding: 14px;
+  padding: 17px;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
@@ -129,7 +129,7 @@ a:hover {
   border-collapse: collapse;
   width: 100%;
   margin-top: 20px 20px 0px 0px;
-  font-size: 17px;
+  font-size: 12px;
   background: url("scissor-and-comb.svg");
   background-color: rgba(0, 128, 129, 0.1);
   background-repeat: no-repeat;
