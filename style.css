@@ -16,7 +16,7 @@ h1 {
   display: flex;
   margin: 40px;
   justify-content: center;
-  font-family: "TrainOne", sans-serif;
+  font-family: "TrainOne", cursive;
   font-size: 50px;
   text-shadow: 5px 5px 10px teal;
   user-select: none;
