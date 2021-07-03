@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: "TrainOne";
-  src: url("TrainOne-Regular.ttf");
+  src: url("/TrainOne-Regular.ttf");
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 {
 
 @font-face {
   font-family: "Poppins";
-  src: url("Poppins-Regular.ttf");
+  src: url("/Poppins-Regular.ttf");
 }
 
 .nav_links a {
