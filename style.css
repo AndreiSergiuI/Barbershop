@@ -58,13 +58,13 @@ h1 {
 .nav_links a {
   display: inline-block;
   text-align: center;
-  padding: 17px;
+  padding: 14px;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: black;
   border-radius: 2px;
-  font-size: 9px;
-  margin-top: 80px;
+  font-size: 11px;
+  margin-top: 135px;
 }
 
 a {
@@ -128,14 +128,14 @@ a:hover {
 #Servicii {
   border-collapse: collapse;
   width: 100%;
-  margin-top: 20px 20px 0px 0px;
-  font-size: 12px;
+  margin: 20px 20px 0px 0px;
+  font-size: 11px;
   background: url("scissor-and-comb.svg");
   background-color: rgba(0, 128, 129, 0.1);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 100%;
-  background-size: 280px;
+  background-size: 220px;
 }
 
 @media screen(max-width:643px) {
@@ -150,7 +150,7 @@ a:hover {
   padding: 8px;
   font-family: "Poppins", sans-serif;
   user-select: none;
-  font-size: 17px;
+  font-size: 11px;
 }
 
 #Servicii td:hover {
