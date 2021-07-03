@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: whitesmoke;
+}
+
+@font-face {
+  font-family: "TrainOne";
+  src: url("/font/TrainOne-Regular.ttf");
+}
+
+h1 {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+  font-family: "TrainOne", sans-serif;
+  font-size: 50px;
+  text-shadow: 5px 5px 10px teal;
+  user-select: none;
+}
+
+@media screen and (max-width: 643px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 464px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 405px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 297px) {
+  h1 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 243px) {
+  h1 {
+    font-size: 10px;
+  }
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/font/Poppins-Regular.ttf");
+}
+
+.nav_links a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  border-radius: 2px;
+  font-size: 9px;
+  margin-top: 80px;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  background-color: rgba(0, 128, 129, 0.5);
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  opacity: 1;
+}
+
+.column:hover {
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 993px) and (min-width: 1410px) {
+  .column {
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 250px) {
+  .nav_links a {
+    width: 8%;
+  }
+}
+@media screen and (min-width: 418px) {
+  .nav_links a {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 418px) {
+  .nav_links a {
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .nav_links a {
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 314px) {
+  .nav_links a {
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 270px) {
+  .nav_links a {
+    display: none;
+  }
+}
+
+#Servicii {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px 20px 0px 0px;
+  font-size: 17px;
+  background: url("/img/scissor-and-comb.svg");
+  background-color: rgba(0, 128, 129, 0.1);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 100%;
+  background-size: 280px;
+}
+
+@media screen(max-width:643px) {
+  #Servicii {
+    font-size: 10px;
+  }
+}
+
+#Servicii td,
+#Servicii th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+  font-size: 17px;
+}
+
+#Servicii td:hover {
+  background-color: rgba(0, 128, 129, 0.5);
+}
+
+#Servicii th {
+  background-color: rgba(0, 128, 129, 1);
+}
+.Bani,
+.Pac {
+  text-align: center;
+}
+
+footer {
+  background-color: teal;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.NR {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: rgb(0, 128, 129);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-image: url("/img/iconmonstr-phone-13.svg");
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.WP {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: rgb(0, 128, 129);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-image: url("/img/iconmonstr-whatsapp-1.svg");
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.NR:hover .WP:hover {
+  background-color: rgb(0, 128, 129);
+  opacity: 0.8;
+}
+
+.Program {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.Locație {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  padding-right: 35px;
+  padding-top: 10px;
+}
+
+.Copy {
+  padding-top: 21px;
+}
