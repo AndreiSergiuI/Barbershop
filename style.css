@@ -77,6 +77,9 @@ a:hover {
   color: white;
   border-radius:5px;
 }
+td:hover{
+cursor: pointer; }
+
 
 .column {
   flex: 33.33%;
