@@ -171,7 +171,9 @@ cursor: pointer; }
 .Bani,
 .Pac {
   text-align: center;
-  cursor: pointer;
+}
+.Bani:hover {
+    cursor: pointer;
 }
 
 footer {
